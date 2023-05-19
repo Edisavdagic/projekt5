@@ -1,6 +1,112 @@
 *{
 margin: 0;
 padding: 0;
+font-family: Montserrat;
+
+}
+
+body{
+background-color: #F2F2F2;
+
+
+}
+
+nav{
+height: 80px;
+background-color: #173448;
+
+}
+
+.logo{
+padding-left: 25px;
+padding-top: 25px;
+
+
+}
+
+.sectionbanner{
+height: 200px;
+background-image: url("billeder/forsidehenrik.png");
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+.sectionbanner img{
+height: 400px;
+max-width: 100%;
+
+}
+
+.sectionbanner h1{
+font-size: 30px;
+padding-top: 20px;
+padding-left: 10px;
+
+
+    
+}
+
+.citat{
+margin-top: 50px;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.citathenrik{
+font-weight: bold;
+margin-top: 25px;
+text-align: center;
+
+
+
+}
+
+
+.linje{
+    width: 50px;
+    height: 2px;
+    background-color: #173448;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+
+.casescontainer{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+.casescontainer img{
+    height: 300px;
+    width: 350px;
+
+}
+
+.casesbilleder{
+padding-bottom: 20px;
+
+}
+
+
+.casesknap{
+border-radius: 1px;
+border: 2px solid #173448;
+background-color: #fff;
+padding: 10px 40px 10px 40px;
+font-weight: bold;
+margin-top: 25px;
+
+}
+
+.casescontainer p{
+color: #EA6655;
+font-weight: bold;
 
 
 }
