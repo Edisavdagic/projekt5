@@ -50,6 +50,10 @@ padding-left: 10px;
     
 }
 
+.kontorcase2{
+    height: 500px;
+    width: 100%;
+
 .citat{
 margin-top: 50px;
 margin-right: 10px;
@@ -280,7 +284,6 @@ margin-right: 50px;
         font-weight: bold;
     }
     
-    
     /* Nu kommer ipad version*/
     @media only screen and (min-width:650px) {
     .grunde2{
@@ -294,6 +297,4 @@ margin-right: 50px;
         }
     }
 
-    .kontorcase2{
-        height: 100px;
-    }
+   
