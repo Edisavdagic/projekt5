@@ -182,8 +182,8 @@ width: 350px;
 
     
 }
-}
 
+ }
 @media only screen and (min-width: 1024px) {
 .citat{
 margin-top: 50px;
@@ -293,7 +293,7 @@ margin-right: 50px;
     .bold{
         font-weight: bold;
     }
-    
+
     /* Nu kommer ipad version*/
     @media only screen and (min-width:650px) {
     .grunde2{
@@ -306,5 +306,84 @@ margin-right: 50px;
             flex-direction: row;
         }
     }
+}
 
-   
+
+/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog*/
+.katalogbaggrund{
+background-image: url("billeder/kontor.jpeg"); 
+background-position: center;
+height: 500px;
+}
+
+.katalogbaggrund h1{
+display: flex;
+justify-content: center;
+font-size: 40px;
+padding-top: 200px;
+color: #E75C54;
+}
+
+.katalog-beskrivelse{
+margin-top: 50px;
+margin-left: 25px;
+margin-right: 25px;
+
+}
+
+
+
+.casescontainer-katalog{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+
+.casesinformation{
+    height: 300px;
+    width: 350px;
+    background-color: #173448;
+   margin-top: 50px;
+
+    
+
+}
+
+.casesinformation h3{
+padding-top: 25px;
+padding-left: 25px;
+color:#E75C54;
+    
+
+}
+
+.casesinformation p{
+
+color: #fff;
+padding-top: 10px;
+padding-left: 25px;
+padding-right: 25px;
+        
+    
+}
+
+.katalog-section{
+height: 1700px;
+
+
+
+}
+
+.casesoverordnet{
+
+margin-top: 50px;
+}
+
+.katalogpil{
+    margin-top: 30%;
+    margin-left: 79%;
+
+
+}
+
