@@ -278,6 +278,9 @@ margin-right: 50px;
         font-weight: bold;
     }
     
+     .kontorcase2{
+        height: 100px;
+    }
     
     /* Nu kommer ipad version*/
     @media only screen and (min-width:650px) {
@@ -292,6 +295,4 @@ margin-right: 50px;
         }
     }
 
-    .kontorcase2{
-        height: 100px;
-    }
+   
