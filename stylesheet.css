@@ -49,9 +49,8 @@ padding-left: 10px;
 }
 
 .kontorcase2{
-    height: 10pvh;
-    width: 30vh;
-}
+    height: 400px;
+    max-width: 100%;
 
 .citat{
 margin-top: 50px;
