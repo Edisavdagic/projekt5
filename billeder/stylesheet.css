@@ -63,9 +63,13 @@ align-items: center;
     flex-direction: row;
     
 }
+}
 /* Nu kommer web*/
 @media only screen and (min-width:900px){    
     .grunde2{
         flex-direction: row;
     }
 }
+
+/* Case siden*/
+
