@@ -69,3 +69,15 @@ align-items: center;
         flex-direction: row;
     }
 }
+
+/* Case siden*/
+
+.sectionbannercase{
+    height: 500px;
+    width: 100%;
+    background-image: url("billeder/kontor.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    
+    }
