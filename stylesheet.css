@@ -53,6 +53,7 @@ padding-left: 10px;
 .kontorcase2{
     height: 500px;
     width: 100%;
+}
 
 .citat{
 margin-top: 50px;
@@ -172,6 +173,7 @@ height: 300px;
 width: 350px;
 
     
+}
 }
 
 @media only screen and (min-width: 1024px) {
