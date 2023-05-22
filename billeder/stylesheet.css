@@ -73,9 +73,9 @@ align-items: center;
 /* Case siden*/
 
 .bannercase{
-    z-index:-1;
-    width:100%;
-    height:42%;
-    position:relative; 
-    object-fit: cover;
-    }
+    height: 500px;
+    width: 100%;
+    background-image: url("billeder/kontor.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
