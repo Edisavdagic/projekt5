@@ -75,7 +75,7 @@ align-items: center;
 .bannercase{
     height: 500px;
     width: 100%;
-    background-image: url("kontor.jpeg");
+    background-image: url("billeder/kontor.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
