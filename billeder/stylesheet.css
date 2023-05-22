@@ -55,7 +55,10 @@ align-items: center;
 .bold{
     font-weight: bold;
 }
+.kontorcase img{
+    height: 100px;
 
+}
 
 /* Nu kommer ipad version*/
 @media only screen and (min-width:650px) {
@@ -69,11 +72,4 @@ align-items: center;
     .grunde2{
         flex-direction: row;
     }
-}
-
-/* Case siden*/
-
-.kontorcase {
-    height: 10vh;
-    width: 30vh;
 }
