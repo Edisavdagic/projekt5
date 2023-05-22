@@ -25,7 +25,7 @@
 <section class="sectioncases">
   <div class="casesoverordnet">
     <div class="casescontainer">
-  <div class="casesbilleder"> <img src="billeder/Skærmbillede 2023-05-19 kl. 12.28.13.png" alt="">
+  <div class="casesbilleder"> <img src="billeder/Skærmbillede 2023-05-19 kl. 12.28.13.png" alt="dit-billede" class="default-image">
   </div>
   <div class="casesbilleder"> <img src="billeder/Skærmbillede 2023-05-19 kl. 12.28.13.png" alt="">
   </div>
@@ -36,6 +36,21 @@
 </div>
 </div>
 </div>
+
+<script>
+  var myDiv = document.querySelector(".casesbilleder");
+  var originalImage = myDiv.innerHTML;
+
+  myDiv.addEventListener("mouseover", function() {
+    myDiv.innerHTML = '<img src="billeder/kontor.jpeg" alt="Andet billede">';
+  });
+
+  myDiv.addEventListener("mouseout", function() {
+    setTimeout(function() {
+      myDiv.innerHTML = originalImage;
+    }, 300);
+  });
+</script>
 
 
 

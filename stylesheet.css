@@ -12,14 +12,17 @@ background-color: #F2F2F2;
 }
 
 nav{
+display: flex;
+align-items: center;
 height: 80px;
 background-color: #173448;
+
 
 }
 
 .logo{
 padding-left: 25px;
-padding-top: 25px;
+height: 50px;
 
 
 }
@@ -94,6 +97,11 @@ flex-direction: column;
 .casescontainer img{
     height: 300px;
     width: 350px;
+
+}
+.casescontainer img:hover{
+background-color: black;
+
 
 }
 
