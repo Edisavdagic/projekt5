@@ -48,6 +48,10 @@ padding-left: 10px;
     
 }
 
+.kontorcase2{
+    height: 100px;
+}
+
 .citat{
 margin-top: 50px;
 margin-right: 10px;
@@ -276,10 +280,6 @@ margin-right: 50px;
     }
     .bold{
         font-weight: bold;
-    }
-    
-     .kontorcase2{
-        height: 100px;
     }
     
     /* Nu kommer ipad version*/
