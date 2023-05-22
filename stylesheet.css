@@ -113,6 +113,41 @@ font-weight: bold;
 
 }
 
+
+
+footer{
+height: 450px;
+background-color: #E75C54;
+    }
+
+footer p{
+color: #fff;
+    
+    }
+    
+    footer h2{
+color: #fff;
+        
+        }
+    
+.footerindhold{
+display: flex;
+flex-direction: column;
+    }
+
+.footerindhold p{
+margin: 10px;
+}
+
+.footerindhold h2 {
+margin-bottom: 25px;
+margin-top: 25px;
+       
+        
+        
+        
+        }
+
 @media only screen and (min-width: 600px) {
     .citat{
      margin-top: 50px;
@@ -154,7 +189,37 @@ width: 450px;
 
     
 }
+
+footer{
+height: 250px;
+
+
 }
+
+.footerindhold{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+    
+        }
+
+.ommigtekst{
+width: 50%;
+}
+    
+
+
+.footeroverordnet{
+margin-left: 50px;
+margin-right: 50px;
+
+}
+
+
+}
+
 
 
 
@@ -228,24 +293,3 @@ width: 450px;
     }
 
 
-footer{
-height: 250px;
-background-color: #E75C54;
-
-}
-footer p{
-color: #fff;
-
-}
-
-footer h2{
-    color: #fff;
-    
-    }
-
-ul{
-display: flex;
-
-
-
-}
