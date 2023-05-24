@@ -390,7 +390,7 @@ margin-top: 50px;
 
 /*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases/*Cases*/
 
-.section-cases{
+.section-casesoverksrift{
 background-image: url(billeder/kontor.jpeg);
 background-position: center;
 height: 500px;
@@ -402,4 +402,29 @@ height: 500px;
     font-size: 40px;
     padding-top: 200px;
     color: #E75C54;
+}
+
+
+.section-cases{
+height: 1500px;
+
+
+
+
+}
+
+
+.casescontainer{
+
+
+
+
+}
+
+
+.enkeltecases{
+margin-top: 25px;
+
+
+
 }
