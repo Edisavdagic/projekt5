@@ -1,4 +1,3 @@
-
 const slider = document.getElementById('prisSlider');
 const value1Display = document.getElementById('value1');
 const value2Display = document.getElementById('value2');
@@ -17,13 +16,17 @@ slider.addEventListener('input', function() {
 });
 
 function updateOutputValues(values) {
-    value1Display.textContent = values[0];
-    
-    if (values[1] >= 0) {
-      value2Display.textContent = values[1];
-    } else {
-      value2Display.textContent = 0;
+  for (let i = 0; i < values.length; i++) {
+    if (i === 0) {
+      value1Display.textContent = values[i];
+    } else if (i === 1) {
+      if (values[i] >= 0) {
+        value2Display.textContent = values[i];
+      } else {
+        value2Display.textContent = 0;
+      }
     }
   }
-  
+}
+
 
