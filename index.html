@@ -7,15 +7,22 @@
     <title>forside</title>
     <link rel="stylesheet" href="stylesheet.css">
   </head>
+
     <!-- NAVIGATIONS MENUEN -->
   <body>
   <nav>
     <img class="logo" src="billeder/logo.png" alt="">
-
   </nav>
-<section class="sectionbanner">
-  <h1>Spar din virksomhed tid<br> og penge med en ekstern <br> HR konsulent</h1>
-</section>
+<header class="sectionbanner">
+  <div class="forside-indhold">
+  <h1>Spar din virksomhed tid og penge med en ekstern HR konsulent</h1>
+  <p>Jeg er specialist inden for rekruttering onboarding, preboarding og meget andet.</p>
+</div>
+<div class="forside-billede">
+<img src="billeder/HRHenrik.png" alt="Profil billede af Henrik Stær Grove">
+  </div> 
+
+</header>
 <section class="sectionparagraf">
 <p class="citat"> “Siden 2023 har jeg hjulpet vores kunder med at spare tid og opnå deres HR-mål ved at matche dem med de bedste HR-eksperter og rådgive dem om de bedste HR-praksis.”</p>
 <p class="citathenrik"> - Henrik Stæhr Grove</p>
@@ -31,26 +38,14 @@
   </div>
   <div class="casesbilleder"> <img src="billeder/Skærmbillede 2023-05-19 kl. 12.28.13.png" alt="">
   </div>
+  <div class="forside-caseslink">
   <p> Se alle vores Cases</p>
   <button class="casesknap">Klik her</button>
 </div>
 </div>
 </div>
 
-<script>
-  var myDiv = document.querySelector(".casesbilleder");
-  var originalImage = myDiv.innerHTML;
 
-  myDiv.addEventListener("mouseover", function() {
-    myDiv.innerHTML = '<img src="billeder/kontor.jpeg" alt="Andet billede">';
-  });
-
-  myDiv.addEventListener("mouseout", function() {
-    setTimeout(function() {
-      myDiv.innerHTML = originalImage;
-    }, 300);
-  });
-</script>
 
 
 
@@ -60,21 +55,28 @@
 
 
   </body>
-
+  <h2 class="grunde-overskrift"><span class="h2Farve">3 grunde</span> til at vælge os</h2>
+  
+  </div>
   <section class="grunde">
-    <h2><span class="h2Farve">3 grunde</span> til at vælge os</h2>
-    <div class="grunde2">
-    
+
+    <div class="grunde2-overordnet">
+    <div class="grunde2-indhold">
       <img class="ikoner" src="billeder/ikon1.png" alt="viserikon1">
     <p class="tekstigrunde">Hos Strerify går vi ind for at skabe en tæt relation med kunden. Vi bestræber os på at skabe værdi for kunden, vi tror vi skaber en bedre kunderelation ved at føre en tættere dialog. </p>
     </class>
-    
+    </div>
+    <div class="grunde2-indhold">
     <img class="ikoner" src="billeder/ikon2.png" alt="viserikon1">
     <p class="tekstigrunde">Vi leverer ekspertviden og specialisering indenfor HR-området. Vi er forpligtet til at orstå dine individuelle behov og omdanne dem til effektive løsninger.</p>
-    
+  </div>
+  <div class="grunde2-indhold">
     <img class="ikoner" src="billeder/ikon3.png" alt="viserikon1">
     <p class="tekstigrunde">Hos Sterify går vi op i at yde en god ydelse til en fair pris, vi bestræber os på at være x% billigere end markedet. </p>
-    
+  </div>
+  </div>
+
+
     </section>
     </div>
     </section>
@@ -85,8 +87,7 @@
     <section class="kunde">
     
     
-    
-    
+  
     </section>
    
     </div>

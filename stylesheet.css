@@ -28,8 +28,9 @@ height: 50px;
 main {
     margin: 20px 10px;
 }
+
 section {
-    margin: 0 10px;
+    margin: 30px 10px;
 }
 
 .white {
@@ -77,28 +78,27 @@ section {
 /* NAVIGATION, NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION NAVIGATION*/
 
 .sectionbanner{
-height: 500px;
-width: 100%;
-background-image: url("billeder/forsidehenrik.png");
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+width: auto;
+background-image: url("billeder/forside-banner.jpg");
 background-repeat: no-repeat;
 background-size: cover;
-background-position: right center;
-
+background-position: center;
+padding: 20px 10px 0 10px;
 }
+
 .sectionbanner img{
-height: 400px;
 max-width: 100%;
-
+height: 300px;
 }
 
-.sectionbanner h1{
-font-size: 30px;
-padding-top: 20px;
-padding-left: 10px;
-
-
-    
+.forside-indhold {
+    margin-bottom: 20px;
 }
+
 
 .kontorcase2{
     height: 500px;
@@ -115,9 +115,6 @@ margin-left: 10px;
 font-weight: bold;
 margin-top: 25px;
 text-align: center;
-
-
-
 }
 
 
@@ -127,7 +124,6 @@ text-align: center;
     background-color: #173448;
     margin: 0 auto;
     margin-top: 50px;
-
 }
 
 
@@ -137,24 +133,19 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-
-
 }
 
 .casescontainer img{
     height: 300px;
     width: 350px;
-
 }
+
 .casescontainer img:hover{
 background-color: black;
-
-
 }
 
 .casesbilleder{
 padding-bottom: 20px;
-
 }
 
 
@@ -165,14 +156,6 @@ background-color: #fff;
 padding: 10px 40px 10px 40px;
 font-weight: bold;
 margin-top: 25px;
-
-}
-
-.casescontainer p{
-color: #EA6655;
-font-weight: bold;
-
-
 }
 
 
@@ -180,22 +163,20 @@ font-weight: bold;
 footer{
 height: 450px;
 background-color: #E75C54;
-    }
+}
 
 footer p{
 color: #fff;
-    
-    }
-    
-    footer h2{
+}
+
+footer h2{
 color: #fff;
-        
-        }
+}
     
 .footerindhold{
 display: flex;
 flex-direction: column;
-    }
+}
 
 .footerindhold p{
 margin: 10px;
@@ -236,6 +217,15 @@ margin-top: 25px;
         display: flex;
         flex-direction: column;
         padding-top: 40px;
+    }
+
+    .grunde2-indhold{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
     }
     
     .teksten{
@@ -280,15 +270,6 @@ padding-top: 200px;
 color: #E75C54;
 }
 
-.katalog-beskrivelse{
-margin-top: 50px;
-margin-left: 25px;
-margin-right: 25px;
-
-}
-
-
-
 .casescontainer-katalog{
 display: flex;
 justify-content: space-between;
@@ -297,50 +278,50 @@ flex-direction: column;
 }
 
 .casesinformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
     height: 300px;
-    width: 350px;
+    width: 100%;
     background-color: #173448;
-   margin-top: 50px;
-
-    
-
+    margin-top: 50px;
 }
 
 .casesinformation h3{
-padding-top: 25px;
-padding-left: 25px;
 color:#E75C54;
-    
-
+margin-bottom: 20px;
 }
 
 .casesinformation p{
-
-color: #fff;
-padding-top: 10px;
-padding-left: 25px;
-padding-right: 25px;
-        
-    
+color: #fff;   
 }
 
 .katalog-section{
 height: 1700px;
-
-
-
 }
 
 .casesoverordnet{
-
 margin-top: 50px;
 }
 
-.katalogpil{
-    margin-top: 30%;
-    margin-left: 79%;
+.katalog-text {
+    padding: 20px;
+}
 
-/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog*/
+.katalogpil {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 50px;
+}
+
+.se-mere-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+
 }
 
 
@@ -360,13 +341,30 @@ height: 500px;
     color: #E75C54;
 }
 
-
 .section-cases{
 height: 1500px;
 }
 
 .enkeltecases{
 margin-top: 25px;
+display: flex;
+flex-direction: column;
+}
+
+.enkeltecases-reverse{
+    margin-top: 25px;
+    display: flex;
+    flex-direction:column-reverse;
+}
+
+.cases-text {
+    background-color: #E75C54;
+    padding: 20px;
+}
+
+.casescontainer img {
+    width: 100%;
+    object-fit: cover;
 }
 
 /* KONTAKT KONTAKT KONTAKT KONTAKT KONTAKT KONTAKT KONTAKT KONTAKT KONTAKT KONTAKT KONTAKT KONTAKT KONTAKT KONTAKT  */
@@ -582,6 +580,11 @@ margin-top: 25px;
 
     /* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET   */
     @media only screen and (min-width: 600px) {
+
+        section {
+            margin: 50px 60px 50px 60px;
+        }
+
         .citat{
          margin-top: 50px;
         padding-right: 100px;
@@ -589,7 +592,7 @@ margin-top: 25px;
          }
         
         .casescontainer{
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
@@ -597,16 +600,33 @@ margin-top: 25px;
 
         .casescontainer img{
         height: 300px;
-        width: 350px;   
+        width: 100%;   
         }
     
+        .grunde-overskrift{
+        text-align: center;
+
+
+
+        }
         .grunde2{
             flex-direction: row; 
         }
+
      }
+
 
      /* DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP */
     @media only screen and (min-width: 900px) {
+        
+        section {
+            margin: 50px 100px 50px 100px;
+        }
+
+        h1 {
+            font-size: 80px;
+        }
+
         .citat {
         margin-top: 50px;
         padding-right: 300px;
@@ -618,13 +638,23 @@ margin-top: 25px;
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-        margin-left: 50px;
-        margin-right: 50px;
         }
 
         .casescontainer img {
         height: 400px;
         width: 450px;  
+        }
+
+        .grunde-overskrift{
+        text-align: center;
+        
+
+        }
+
+        .grunde2-overordnet{
+        display: flex;
+        flex-direction: row;
+
         }
         
         footer{
@@ -688,13 +718,16 @@ margin-top: 25px;
 
  main {
     display: flex;
+    padding: 50px 100px 0 100px
+ }
+
+ .ydelse-info {
+    margin-right: 80px;
  }
 
  .pris-regner {
     width: 500px;
  }
-
-
 
 /* OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM */
 
@@ -725,6 +758,41 @@ margin-top: 25px;
 
 /* KATALOG KATALOG KATALOG KATALOG KATALOG KATALOG KATALOG KATALOG KATALOG KATALOG KATALOG KATALOG KATALOG KATALOG  */
 
+.casesinformation {
+    width: 47%;
+}
+
+.casescontainer-katalog {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.se-mere-div {
+    width: 47%;
+}
+
+/* CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES CASES  */
+
+.enkeltecases {
+    margin-top: 50px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.enkeltecases-reverse {
+    margin-top: 50px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cases-text {
+    height: 400px;
+    background-color: #E75C54;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+}
 
 }
     
