@@ -42,7 +42,7 @@ ul {
     text-decoration: none;
     color: white;
     font-family: Montserrat;
-    padding-right: 10px;
+    justify-content: space-between;
   }
 
 main {
