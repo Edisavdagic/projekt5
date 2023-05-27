@@ -86,7 +86,6 @@ section {
     background-color: white;
     color: #173448;
     border: solid 2px;
-    width: 150px;
     margin: 10px 0;
     padding: 15px;
 }
@@ -467,9 +466,13 @@ flex-direction: column;
     background-color: white;
     padding: 15px;
     width: 150px;
-    margin: 10px 10px 10px 0px;
+    margin-bottom: 10px;
     border-color: #173448;
     border: solid 2px;
+  }
+
+  .header-btn-wrap {
+    display: none;
   }
 
   /* PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT */
@@ -555,7 +558,7 @@ flex-direction: column;
         height: 2px;
         background-color: #173448;
     }
-    
+
     .pomos{
         display: flex;
         flex-direction: row;
@@ -565,12 +568,7 @@ flex-direction: column;
     }
     
     .HRHenrik {
-        width: 100%;
-        height: 40vh;
-        display: flex;
-        object-fit: cover;
-        margin: auto;
-        margin: 40px 0;
+        display: none;
     }
     
     .ikonomos {
@@ -605,6 +603,11 @@ flex-direction: column;
             margin: 50px 60px 50px 60px;
         }
 
+        main {
+            padding: 50px 60px 50px 60px;
+
+        }
+
         .citat{
          margin-top: 50px;
         padding-right: 100px;
@@ -625,14 +628,35 @@ flex-direction: column;
     
         .grunde-overskrift{
         text-align: center;
-
-
-
         }
         .grunde2{
             flex-direction: row; 
         }
 
+        .header-main {
+            height: 300px;
+        }
+
+        .header-contact {
+            height: 300px;
+            padding-left: 60px;
+        }
+
+        .header-btn-wrap {
+            display: none;
+        }
+
+        .HRHenrik {
+            display: block;
+            height: 250px;
+            width: 250px;
+            border-radius: 100%;
+        }
+
+        .om-os {
+            display: flex;
+            justify-content: space-between;
+        }
      }
 
 
@@ -706,11 +730,24 @@ flex-direction: column;
 
     .header-contact {
         height: 400px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-info {
+        display: flex;
+        align-items: end;
+        height: 210px;
+    }
+
+    .header-name {
+        margin-bottom: 35px;
+        color: #E75C54;
     }
 
         .contact-img {
-            height: 300px;
-            width: 300px;
+            height: 200px;
+            width: 200px;
         }
 
     .contact-info {
@@ -719,16 +756,41 @@ flex-direction: column;
 
     .calendar-wrap {
         display: flex;
+        margin-top: 20px;
     }
 
     .calendar {
         width: 100%;
+        margin: 0;
     }
 
     .time-slot-picker {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
         padding-left: 20px;
-        padding-top: 10px;
+        width: 500px
     }
+
+    .calendar-btn {
+        width: 46%;
+    }
+
+    .btn-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .header-btn-wrap {
+        display: flex;
+        align-items: flex-end;
+        height: 210px;
+        margin-bottom: 25px;
+    }
+
+    
 
 /* PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT   */
 
@@ -742,11 +804,12 @@ flex-direction: column;
  }
 
  .ydelse-info {
-    margin-right: 80px;
+    margin-right: 40px;
  }
 
  .pris-regner {
-    width: 500px;
+    width: 320px;
+    margin: 0;
  }
 
 /* OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM */
@@ -761,6 +824,7 @@ flex-direction: column;
 
 .om-heading-wrap {
     margin-right: 100px;
+    white-space: nowrap;
 }
 
 .om-os {
