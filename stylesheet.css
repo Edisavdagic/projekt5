@@ -42,8 +42,7 @@ ul {
     text-decoration: none;
     color: white;
     font-family: Montserrat;
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
 main {
