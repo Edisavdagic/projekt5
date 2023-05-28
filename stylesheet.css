@@ -127,8 +127,6 @@ height: 300px;
 
 .citat{
 margin-top: 50px;
-margin-right: 10px;
-margin-left: 10px;
 }
 
 .citathenrik{
@@ -143,7 +141,75 @@ text-align: center;
     height: 2px;
     background-color: #173448;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 10px;
+}
+
+.cases-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.case1 {
+    display: flex;
+    background-image: url("billeder/change-aps.jpg");
+    background-size: cover;
+    height: 280px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.case2 {
+    display: flex;
+    background-image: url("billeder/ey-img.jpg");
+    background-size: cover;
+    height: 280px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.case3 {
+    display: flex;
+    background-image: url("billeder/optidata-img.jpg");
+    background-size: cover;
+    height: 280px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+    .cases-logo-wrap {
+        display: inline-block;
+        background-color: #E75C54;
+        height: fit-content;
+    }
+
+        .cases-logo {
+            width: 120px;
+            margin: 13.5px 0 13.5px 10px;
+        }
+
+        .cases-logo2 {
+            width: 120px;
+            height: 30.5px;
+            margin: 10px 10px;
+        }
+
+        .cases-logo3 {
+            width: 120px;
+            margin: 10px 10px;
+            height: 31px;
+        }
+
+        .diagonal {
+            height: 55px;
+            background-repeat: no-repeat;
+        }
+
+.forside-caseslink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -214,6 +280,10 @@ margin-top: 25px;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    }
+
+    .grunde-overskrift {
+        margin-bottom: 40px;
     }
     
     .h2Farve{
@@ -479,10 +549,6 @@ flex-direction: column;
   .btn-wrap{
     display: flex;
     justify-content: center;
-    align-items: ;
-
-
-
   }
 
   .main-btndiv{
@@ -628,8 +694,7 @@ flex-direction: column;
 
         .citat{
          margin-top: 50px;
-        padding-right: 100px;
-         padding-left: 100px;
+       
          }
         
         .casescontainer{
@@ -647,6 +712,7 @@ flex-direction: column;
         .grunde-overskrift{
         text-align: center;
         }
+
         .grunde2{
             flex-direction: row; 
         }
@@ -715,17 +781,32 @@ flex-direction: column;
                 padding: 15px 20px;
                 font-weight: bold;
             
-          }
+          
         }
 
         h1 {
-            font-size: 80px;
+            font-size: 50px;
+        }
+
+        .sectionbanner{
+            height: 600px;
+            flex-direction: row;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .forside-indhold {
+            width: 60%;
+        }
+
+        .sectionbanner img {
+            width: 40vh;
+            height: 40vh;
+            object-fit: cover;
         }
 
         .citat {
         margin-top: 50px;
-        padding-right: 300px;
-        padding-left: 300px;
         }
             
         .casescontainer{
@@ -929,6 +1010,4 @@ flex-direction: column;
     display: flex;
     align-items: center;
 }
-
 }
-    
