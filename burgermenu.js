@@ -1,5 +1,5 @@
 function myFunction() {
-  let x = document.getElementById("myLinks");
+  let x = document.getElementById("menu");
   let myLinks = ["Cases", "Ydelser", "Om os" , "Kontakt"];
   
   if (x.style.display === "block") {
