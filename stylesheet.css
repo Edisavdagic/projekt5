@@ -150,6 +150,10 @@ text-align: center;
     align-items: center;
 }
 
+.align-center {
+    text-align: center;
+}
+
 .case1 {
     display: flex;
     background-image: url("billeder/change-aps.jpg");
@@ -789,7 +793,7 @@ flex-direction: column;
         }
 
         .sectionbanner{
-            height: 600px;
+            height: 506px;
             flex-direction: row;
             padding-left: 50px;
             padding-right: 50px;
@@ -801,14 +805,40 @@ flex-direction: column;
 
         .sectionbanner img {
             width: 40vh;
-            height: 40vh;
+            height: 42vh;
             object-fit: cover;
         }
 
         .citat {
         margin-top: 50px;
         }
-            
+        
+
+        .cases-wrap {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+            .case1 {
+                width: 48%;
+                margin-top: 0;
+            }
+
+            .case2 {
+                width: 48%;
+            }
+
+            .case3 {
+                width: 48%;
+            }
+
+            .forside-caseslink {
+                width: 48%;
+            }
+
         .casescontainer{
         flex-direction: row;
         flex-wrap: wrap;
@@ -823,14 +853,20 @@ flex-direction: column;
 
         .grunde-overskrift{
         text-align: center;
-        
-
         }
 
         .grunde2-overordnet{
         display: flex;
         flex-direction: row;
+        align-items: start;
+        }
 
+        .grunde2-indhold {
+            width: 33%;
+        }
+
+        .tekstigrunde {
+            margin: 20px;
         }
         
         footer{
