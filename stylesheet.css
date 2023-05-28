@@ -20,6 +20,7 @@ background-color: #173448;
 
 }
 
+
 .logo{
 padding-left: 25px;
 height: 50px;
@@ -475,6 +476,23 @@ flex-direction: column;
     display: none;
   }
 
+  .btn-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: ;
+
+
+
+  }
+
+  .main-btndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        
+  }
+
   /* PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT */
 
 .header-main {
@@ -662,9 +680,42 @@ flex-direction: column;
 
      /* DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP */
     @media only screen and (min-width: 900px) {
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ;
+          }
         
-        section {
-            margin: 50px 100px 50px 100px;
+          nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Add flex display */
+            justify-content: flex-end; /* Align the list items to the right */
+            margin-right: 100px;
+            font-weight: bold;
+          }
+        
+          nav ul li {
+            margin-left: 50px; /* Add some space between the menu items */
+          }
+        
+          nav ul li a {
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: Montserrat;
+          }
+
+          .menu-btn a{
+                background-color: #E75C54;
+                color: white;
+                padding: 15px 20px;
+                font-weight: bold;
+            
+          }
         }
 
         h1 {
@@ -789,6 +840,7 @@ flex-direction: column;
         height: 210px;
         margin-bottom: 25px;
     }
+
 
     
 
