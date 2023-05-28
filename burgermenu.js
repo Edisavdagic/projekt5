@@ -1,17 +1,17 @@
-function myFunction() {
-  let x = document.getElementById("menu");
-  let myLinks = ["Cases", "Ydelser", "Om os" , "Kontakt"];
+let hamburger = document.querySelector(".hamburger");
+let navMenu = document.querySelector(".nav-menu");
   
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-  
-  
-  
-  
+hamburger.addEventListener("click", () => {
+  hamburger.classlist.toggle("active");
+  navMenu.classlist.toggle("active");
+})
+
+
+document.querySelectorAll(".nav-link").forEach(n=> n.
+addEventListener("click" , () => {
+  hamburger.classlist.remove ("active");
+  navMenu.classlist.remove ("active");
+}))
   
   
   
