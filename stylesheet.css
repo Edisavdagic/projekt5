@@ -890,14 +890,22 @@ flex-direction: column;
         }
         
         footer{
-        height: 250px;
+        padding: 40px 50px;
+        }
+
+        .footerommig {
+            width: 300px;
         }
         
         .footerindhold{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items:top;
+        }
+
+        .footer-socials {
+            margin: 0;
         }
         
         .ommigtekst{
