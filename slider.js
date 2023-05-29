@@ -1,12 +1,17 @@
+
+//1
 const slider = document.getElementById('prisSlider');
 const value1Display = document.getElementById('value1');
 const value2Display = document.getElementById('value2');
 let prevValue1 = 0;
 let prevValue2 = 0;
 
+//2
 slider.addEventListener('input', function() {
+  
+  //3
   const value1 = parseInt(slider.value);
-  const value2 = prevValue2 + (value1 - prevValue1) * 700;
+  const value2 = parseInt(slider.value) * 700;
 
   const values = [value1, value2];
   updateOutputValues(values);
@@ -28,5 +33,3 @@ function updateOutputValues(values) {
     }
   }
 }
-
-
