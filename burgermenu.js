@@ -1,7 +1,6 @@
 let hamburger = document.querySelector(".hamburger");
 let navMenu = document.querySelector(".nav-menu");
 let menuItems = ["CASES", "YDELSER", "OM OS", "KONTAKT" ]
-const isMobile = true;
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
