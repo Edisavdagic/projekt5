@@ -14,3 +14,13 @@ addEventListener("click", () => {
   navMenu.classList.remove("active");
 }))
 
+hamburger.addEventListener('click', function() {
+  // Tjek om menuen er skjult eller synlig
+  if (navMenu.style.display === 'none') {
+    // Vis menuen
+    navMenu.style.display = 'block';
+  } else {
+    // Skjul menuen
+    navMenu.style.display = 'none';
+  }
+});
