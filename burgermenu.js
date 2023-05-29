@@ -6,14 +6,6 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
 })
-
-
-document.querySelectorAll(".nav-link").forEach(n=> n.
-addEventListener("click", () => {
-  hamburger.classList.remove("active");
-  navMenu.classList.remove("active");
-}))
-
 hamburger.addEventListener('click', function() {
   // Tjek om menuen er skjult eller synlig
   if (navMenu.style.display === 'none') {
@@ -24,3 +16,10 @@ hamburger.addEventListener('click', function() {
     navMenu.style.display = 'none';
   }
 });
+
+document.querySelectorAll(".nav-link").forEach(n=> n.
+addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}))
+
