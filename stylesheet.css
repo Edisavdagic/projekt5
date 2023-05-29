@@ -457,6 +457,113 @@ margin-bottom: 10px;
         font-weight: bold;
     }
 
+    .slider-section{
+        background-color: #f1f1f1;
+        font-family: Arial, Helvetica, sans-serif;
+        /* center content */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+    #slider {
+        position: relative;
+        width: 860px;
+        background-color: #173448;
+        color: white;
+        padding: 2rem;
+    }
+    
+    .slide {
+        padding: 2rem;
+        display: block;
+    
+        /* center */
+        margin: 0 auto;
+    }
+    
+    .slide > * {
+        padding: 1rem;
+    }
+    
+    .content {
+        /* center content */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .content span {
+        margin-bottom: 16px;
+    }
+    
+    .content span svg {
+        /* set size of svg */
+        width: 56px;
+        height: 56px;
+        margin-left: -10px;
+    }
+    
+    .content p {
+        font-size: 1rem;
+    }
+    
+    .content h3 {
+        margin-top: 26px;
+        font-size: .8rem;
+        font-weight: normal;
+    }
+    
+    .content h4 {
+        margin-top: 6px;
+        font-size: 0.5rem;
+        font-weight: normal;
+    }
+    
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 220px;
+        overflow: hidden;
+    }
+    
+    .image img {
+        width: 100%;
+        height: auto;
+        clip-path: circle();
+    }
+    
+    .prev, .next {
+        cursor: pointer;
+        top: 50%;
+        position: absolute;
+        width: auto;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+      
+    .next {
+        right: 2rem;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+      
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
 
 /* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog/* Katalog*/
 .katalogbaggrund{
@@ -885,6 +992,7 @@ flex-direction: column;
         .grunde2{
             flex-direction: row; 
         }
+        
 
         .header-main {
             height: 300px;
@@ -989,8 +1097,6 @@ flex-direction: column;
             width: 50%;
             height: 100%;
         }
-                  
-
 
         .sectionbanner img {
             width: 40vh;
@@ -1060,6 +1166,12 @@ flex-direction: column;
         .tekstigrunde {
             margin: 20px;
         }
+
+
+        .slide {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
         
         footer{
         padding: 40px 50px;
@@ -1083,6 +1195,8 @@ flex-direction: column;
         .ommigtekst{
         width: 50%;
         }
+
+        
             
         .footeroverordnet{
         margin-left: 50px;
