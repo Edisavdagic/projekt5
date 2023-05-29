@@ -15,36 +15,3 @@ addEventListener("click", () => {
   navMenu.classList.remove("active");
 }))
 
-if (isMobile) {
-  navItems.forEach(item => {
-    const li = document.createElement("li");
-    const a = document.createElement("a");
-    a.href = "#";
-    a.textContent = item;
-    a.classList.add("nav-link");
-    li.classList.add("nav-item");
-    li.appendChild(a);
-    navMenu.appendChild(li);
-  });
-
-} else {
-  const navItemContainer = document.querySelector(".nav-item-container");
-  navItems.forEach(item => {
-    const a = document.createElement("a");
-    a.href = "#";
-    a.textContent = item;
-    a.classList.add("nav-link");
-    navItemContainer.appendChild(a);
-  });
-}
-
-// Håndter burgermenu klik
-const hamburger = document.querySelector(".hamburger");
-const navbar = document.querySelector(".navbar");
-
-hamburger.addEventListener("click", () => {
-  navbar.classList.toggle("active");
-});
-  
-  
-  
