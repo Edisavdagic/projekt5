@@ -792,6 +792,39 @@ flex-direction: column;
         margin: 40px 0;
     } 
 
+    /* FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ */
+    #FAQoverskrift{
+        display: flex;
+        justify-content: center;
+        }
+        
+        .FAQboks {
+          display: flex;
+          background-color: #FFFFFF;
+          color: #707070;
+          cursor: pointer;
+          padding: 18px;
+          margin: 10px;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+          border: 1px solid black;
+          border-radius: 3px;
+          outline: none;
+          transition: 0.4s;
+          width: 90%;
+        }
+        
+        .BoksVedKlik{
+          display: none;
+          background-color: 707070;
+          overflow: hidden;
+          margin: 10px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 90%;
+        }         
+
 
     /* TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET   */
     @media only screen and (min-width: 600px) {
