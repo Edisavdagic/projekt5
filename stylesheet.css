@@ -1432,6 +1432,10 @@ flex-direction: column;
 
 /* OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM */
 
+.header-om {
+    height: 400px;
+}
+
 .omhenrik {
     display: flex;
 }
@@ -1463,6 +1467,10 @@ flex-direction: column;
 
 .casesinformation {
     width: 47%;
+}
+
+.header-ydelser {
+    height: 400px;
 }
 
 .casescontainer-katalog {
