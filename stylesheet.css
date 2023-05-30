@@ -641,7 +641,6 @@ footer h2 {
     flex-direction: column;
     justify-content: space-between;
     align-items: end;
-    height: 300px;
     width: 100%;
     background-color: #173448;
     margin-top: 50px;
@@ -1111,6 +1110,11 @@ ul {
         height: 300px;
         width: 100%;
     }
+
+    .casesinformation {
+        height: 400px;
+    }
+
 
     .grunde-overskrift {
         text-align: center;
