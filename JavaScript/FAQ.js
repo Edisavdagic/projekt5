@@ -1,5 +1,5 @@
-console.log("main.js is running..."); //* Tjekker om javascript virker ved at console.log//* 
-let select_element = document.getElementsByClassName("FAQboks"); //opretter en varibel select_element, som er en lokal variabel da den er inden For Funktionen, 
+console.log("main.js is running...");
+let select_element = document.getElementsByClassName("FAQboks");
 let i;
 
 for (i = 0; i < select_element.length; i++) {
