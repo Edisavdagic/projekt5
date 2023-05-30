@@ -424,8 +424,10 @@ margin-bottom: 10px;
     }
     
     .h2Farve{
-        color: #EA6655
-        ;
+        color: #EA6655;
+        font-family: 'Gotham Black', sans-serif;
+
+
     }
     .tekstigrunde{
         margin-top: 20px;
@@ -479,7 +481,7 @@ margin-bottom: 10px;
         text-align: left;
         margin-left:30px ;
     }
-    
+
     .bold{
         font-weight: bold;
     }
@@ -1356,6 +1358,10 @@ flex-direction: column;
         display: flex;
         justify-content: flex-end;
         width: 850px;
+    }
+
+    #margin-right {
+        margin-right: 20px;
     }
 
     .calendar-wrap {
