@@ -8,8 +8,10 @@ font-family: Montserrat;
 
 body{
 background-color: #F2F2F2;
+}
 
-
+p {
+    line-height: 1.8;
 }
 
 nav{
@@ -978,8 +980,9 @@ flex-direction: column;
         
         .FAQboks {
           display: flex;
-          background-color: #FFFFFF;
-          color: #707070;
+          background-color:#173448;
+          color: white;
+          font-weight: bold;
           cursor: pointer;
           padding: 18px;
           margin: 10px;
@@ -995,12 +998,16 @@ flex-direction: column;
         
         .BoksVedKlik{
           display: none;
-          background-color: #707070;
+          border-radius: 3px;
+          background-color: white;
+          border: solid #173448;
+          color:#173448;
           overflow: hidden;
           margin: 10px;
           margin-left: auto;
           margin-right: auto;
           width: 90%;
+          padding: 10px;
         }         
 
 
@@ -1183,7 +1190,8 @@ flex-direction: column;
         }
 
         .citat {
-        margin-top: 50px;
+        margin: 50px 100px 50px 100px;
+        text-align: center;
         }
         
 
@@ -1223,8 +1231,8 @@ flex-direction: column;
         }
 
         .casescontainer img {
-        height: 400px;
-        width: 450px;  
+        height: 500px;
+        width: 50%;  
         }
 
         .grunde-overskrift{
@@ -1397,6 +1405,7 @@ flex-direction: column;
 .om-heading-wrap {
     margin-right: 100px;
     white-space: nowrap;
+    width: 100px;
 }
 
 .om-os {
@@ -1443,7 +1452,7 @@ flex-direction: column;
 }
 
 .cases-text {
-    height: 400px;
+    height: 500px;
     background-color: #E75C54;
     padding: 0 20px 0 20px;
     display: flex;
@@ -1455,6 +1464,6 @@ flex-direction: column;
 
 .ytvideo{
 width: 500px;
-height: 400px;
+height: 500px;
 }
     }
