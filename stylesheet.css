@@ -720,6 +720,16 @@ flex-direction: column;
             border: solid black;
         }
 
+        .contact-icon-wrap {
+            display: flex;
+            align-items: center;
+        }
+    
+        .contact-icon {
+            width: 15px;
+            margin-right: 10px;
+        }
+
     .line {
         width: 120px;
         height: 2px;
@@ -1322,7 +1332,13 @@ flex-direction: column;
             width: 200px;
         }
 
+    .contact-info-wrap {
+        display: flex;
+    }
+    
     .contact-info {
+        display: flex;
+        justify-content: flex-end;
         width: 850px;
     }
 
