@@ -685,11 +685,13 @@ flex-direction: column;
 .header-contact {
     padding: 0 10px;
     display: flex;
-    background-image: url("billeder/kontor.jpeg");
+    background-image: url("billeder/banner-kontakt.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     max-width: 100%;
     height: 200px;
+    overflow: hidden;
+    transform: scale(1.3);
 }
 
     .header-info {
@@ -784,17 +786,74 @@ flex-direction: column;
 
   /* PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT */
 
-.header-main {
+  .header-main {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 10px;
     display: flex;
-    background-image: url("billeder/kontor.jpeg");
+    background-image: url("billeder/banner-rekruttering.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     max-width: 100%;
-    height: 200px;
+    height: 300px;
+}
+
+.header-cases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    display: flex;
+    background-image: url("billeder/banner-case.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 300px;
+}
+
+.header-ydelser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    display: flex;
+    background-image: url("billeder/banner-ydelser.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+
+.header-om {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    display: flex;
+    background-image: url("billeder/banner-om.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 300px;
+
+}
+
+.header-cases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    display: flex;
+    background-image: url("billeder/banner-kontakt.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 300px;
+
 }
 
 .pris-regner {
@@ -1001,6 +1060,10 @@ flex-direction: column;
             height: 300px;
         }
 
+        .header-cases {
+            height: 300px;
+        }
+
         .header-contact {
             height: 300px;
             padding-left: 60px;
@@ -1039,6 +1102,7 @@ flex-direction: column;
 
           .menu {
             margin: 0;
+            align-items: center;
           }
 
           .nav-btn {
@@ -1280,6 +1344,10 @@ flex-direction: column;
 /* PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT PRODUKT   */
 
 .header-main {
+    height: 400px;
+}
+
+.header-cases {
     height: 400px;
 }
 
