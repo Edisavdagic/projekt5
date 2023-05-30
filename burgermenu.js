@@ -19,20 +19,12 @@ document.querySelectorAll(".nav-link").forEach((n, index) => {
     navMenu.classList.remove("active");
     
     if (menuItems[index] === "CASES") {
-      // Hvis linket er "CASES"
-      // Udfør specifikke handlinger her
       console.log("Du klikkede på CASES");
     } else if (menuItems[index] === "YDELSER") {
-      // Hvis linket er "YDELSER"
-      // Udfør specifikke handlinger her
       console.log("Du klikkede på YDELSER");
     } else if (menuItems[index] === "OM OS") {
-      // Hvis linket er "OM OS"
-      // Udfør specifikke handlinger her
       console.log("Du klikkede på OM OS");
     } else if (menuItems[index] === "KONTAKT") {
-      // Hvis linket er "KONTAKT"
-      // Udfør specifikke handlinger her
       console.log("Du klikkede på KONTAKT");
     }
   });
