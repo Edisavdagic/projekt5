@@ -74,7 +74,9 @@ li {
     width: 25px;
     height: 3px;
     margin: 5px auto;
+    /*
     -webkit-transition: all 0.3s ease-in-out;
+    */
     background-color: white;
   }
 
@@ -385,6 +387,10 @@ margin-bottom: 10px;
 
 .footerommig {
     margin-bottom: 40px;
+}
+
+.linkedin-logo {
+    margin-top: 20px;
 }
 
 
@@ -1265,13 +1271,15 @@ flex-direction: column;
         
         .ommigtekst{
         width: 50%;
-        }
+        } 
 
-        
-            
         .footeroverordnet{
         margin-left: 50px;
         margin-right: 50px;
+        }
+
+        .linkedin-logo {
+            margin: 0;
         }
     
 
@@ -1347,7 +1355,6 @@ flex-direction: column;
     .header-btn-wrap {
         display: flex;
         align-items: flex-end;
-        height: 210px;
         margin-bottom: 25px;
     }
 
