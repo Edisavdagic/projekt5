@@ -1430,6 +1430,11 @@ flex-direction: column;
     margin: 0;
  }
 
+ .pris-regner-btn {
+    display: flex;
+    justify-content: space-between;
+ }
+
 /* OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM OM */
 
 .header-om {
