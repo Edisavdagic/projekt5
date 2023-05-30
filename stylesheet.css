@@ -927,7 +927,7 @@ flex-direction: column;
         
         .BoksVedKlik{
           display: none;
-          background-color: 707070;
+          background-color: #707070;
           overflow: hidden;
           margin: 10px;
           margin-left: auto;
@@ -1188,7 +1188,6 @@ flex-direction: column;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items:top;
         }
 
         .footer-socials {
