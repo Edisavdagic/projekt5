@@ -75,6 +75,7 @@ a {
 
 .nav-link {
     transition: 0.7s ease;
+    font-family: 'Gotham Book', sans-serif;    
 }
 
 .nav-link:hover {
@@ -159,6 +160,7 @@ section {
 }
 
 .white-btn {
+    width: 150px;
     font-size: 15px;
     font-weight: bold;
     background-color: white;
@@ -1155,6 +1157,33 @@ ul {
     section {
         margin-top: 100px;
         margin-bottom: 100px;
+    }
+
+    .nav-btn {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #E75C54;
+    color: white;
+    border: none;
+    width: 150px;
+    margin: 10px 0;
+    padding: 7px 0 7px 0;
+    text-align: center;
+    }
+
+    .main-btn:hover {
+        background-color: #173448;
+    }
+
+    .nav-btn:hover {
+        background-color: white;
+        color: #173448;
+    }
+
+    .white-btn:hover {
+        color: white;
+        background-color: #173448;
+        border-color: #173448;
     }
 
     .nav-menu {
